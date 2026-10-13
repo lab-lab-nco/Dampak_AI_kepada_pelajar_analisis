@@ -62,8 +62,8 @@ Variabel target yang diprediksi adalah `Post_Semester_GPA`.
 5. **Membagi data**  
    Memisahkan data menjadi data latih dan data uji dengan `train_test_split`, menggunakan ukuran data uji sebesar 20% dan `random_state=42`.
 
-6. **Melatih model regresi linear**  
-   Membuat model `LinearRegression` dan melatihnya menggunakan data latih.
+6. **Melatih model**  
+   Membuat model Decision Tree dan Random Forest, melatih menggunakan data latih.
 
 7. **Membuat prediksi**  
    Menggunakan model untuk memprediksi IPK setelah semester pada data uji.
